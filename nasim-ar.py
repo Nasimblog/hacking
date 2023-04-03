@@ -161,6 +161,6 @@ def 𝐍𝐀𝐒𝐈𝐌(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write('\[𝐍𝐀𝐒𝐈𝐌]--[%s/%s]--[OK-%s]~[CP-%s] \'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write('\[HASAN]--[%s/%s]--[OK-%s]~[CP-%s] \'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
             free_fb = session.get('https://mbasic.facebook.com').text
